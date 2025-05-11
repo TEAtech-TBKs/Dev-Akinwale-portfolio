@@ -1,0 +1,21 @@
+.projects-section {
+  padding: 4rem 2rem;
+  background: linear-gradient(135deg, #181111, #2a0d4a, #1a1a40);
+  color: white;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  min-width: 100vh;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.projects-section h2 {
+  font-size: 2.5rem;
+  margin-bottom: 2rem;
+  color: #efcbff;
+}
+
+.projects-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 2rem;
+}

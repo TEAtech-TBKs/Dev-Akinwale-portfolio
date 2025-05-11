@@ -1,0 +1,22 @@
+.about-section {
+  padding: 4rem 2rem;
+  background: linear-gradient(135deg, #1a1a1a, #2a0d4a, #1a1a40);
+  color: white;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  min-width: 100vh;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.about-section h2 {
+  font-size: 2.5rem;
+  margin-bottom: 2rem;
+  color: #e8b3fe;
+}
+
+.about-section p {
+  font-size: 1.125rem;
+  line-height: 1.6;
+  margin-bottom: 1rem;
+  color: #b0b0ff;
+}
