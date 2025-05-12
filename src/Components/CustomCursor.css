@@ -1,0 +1,18 @@
+.custom-cursor {
+  position: fixed;
+  pointer-events: none;
+  width: 30px;
+  height: 30px;
+  background: radial-gradient( cyan, #2ba8ca20);
+  filter: blur(0.6rem);
+  border-radius: 50%;
+  box-shadow: 0.1rem 0.1rem 2rem 1rem rgba(43, 141, 226, 0.8);
+  transform: translate(-50%, -50%);
+  transition: background 0.3s ease, box-shadow 0.3s ease;
+  z-index: 9999;
+}
+
+/* Hide the default cursor */
+body, #root {
+  cursor: none;
+}
