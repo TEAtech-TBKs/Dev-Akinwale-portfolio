@@ -14,5 +14,5 @@
 
 /* Hide the default cursor */
 body, #root {
-  cursor: none;
+  cursor:auto;
 }

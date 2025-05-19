@@ -12,6 +12,7 @@ const App = () => {
   return (
     <>
       <CustomCursor />
+      <Navbar/>
       <HeroSec />
       <About />
       <Projects />

@@ -1,33 +1,31 @@
-import React, { useState } from 'react';
+import React, { useState, useRef } from 'react';
 import emailjs from 'emailjs-com';
 import './contact.css';
 
 const Contact = () => {
-  const [formData, setFormData] = useState({
-    name: '',
-    email: '',
-    message: '',
-  });
+  const formRef = useRef();
+  const [formData, setFormData] = useState({ name: '', email: '', message: '' });
 
   const handleChange = (e) => {
-    setFormData({...formData, [e.target.name]: e.target.value});
+    setFormData({ ...formData, [e.target.name]: e.target.value });
   };
 
   const handleSubmit = (e) => {
     e.preventDefault();
-    emailjs.sendForm('YOUR_SERVICE_ID', 'YOUR_TEMPLATE_ID', e.target, 'YOUR_USER_ID')
-      .then((result) => {
-        alert('Thank you for your message! I will get back to you soon.');
-        setFormData({name: '', email: '', message: ''});
-      }, (error) => {
-        alert('Failed to send message, please try again later.');
+    emailjs.sendForm('service_tsn4arc', 'template_x5s9uk2', formRef.current, 'U8yfpGdCrpZVPokQQ')
+      .then(() => {
+        alert('✅ Thank you for your message! I will get back to you soon.');
+        setFormData({ name: '', email: '', message: '' });
+      }, () => {
+        alert('❌ Failed to send message, please try again later.');
       });
   };
+
 
   return (
     <section className="contact-section" id="contact-section">
       <h2>Contact Me</h2>
-      <form className="contact-form" onSubmit={handleSubmit}>
+      <form className="contact-form" onSubmit={handleSubmit} ref={formRef}>
         <label htmlFor="name">Name</label>
         <input type="text" id="name" name="name" value={formData.name} onChange={handleChange} required />
 

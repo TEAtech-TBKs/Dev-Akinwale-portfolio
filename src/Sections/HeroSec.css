@@ -1,50 +1,51 @@
+/* Base Styles */
 .hero-section {
   height: 100vh;
-  min-width: 100vh;
+  width: 100vw;
   display: flex;
-  padding-inline: 2rem;
+  flex-direction: column-reverse;
+  justify-content: center;
   align-items: center;
+  text-align: center;
+  padding: 2rem;
+  position: relative;
   overflow: hidden;
   color: white;
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-  background: 
-  /* linear-gradient(135deg, #1a1a1a, #2a0d4a, #1a1a40) */
-  rgb(0, 9, 8)
-  ;
+  background: rgb(0, 9, 8);
 }
 
 .hero-content {
   position: relative;
   z-index: 2;
+  max-width: 72rem;
 }
 
 .hero-title {
-  font-size: 3rem;
-  margin-bottom: 0.5rem;
+  font-size: 2rem;
+  max-width: 80rem;
   white-space: nowrap;
   overflow: hidden;
-  border-right: 0.15em solid #8a2be2; /* purple cursor */
-  width: 25.8ch; /* width to fit the name */
+  border-right: 0.15em solid #8a2be2;
   animation: typing 4s steps(22), blink-caret 1s step-end infinite;
-  margin: 0 auto;
 }
 
 .typewriter {
-  color: #00e1ff; /* blue text */
+  color: #00e1ff;
 }
 
 .hero-subtitle {
-  font-size: 1.5rem;
+  font-size: 1.2rem;
   margin-bottom: 1.5rem;
   color: #e0e0fe;
 }
 
 .hero-button {
-  padding: 0.75rem 2rem;
-  font-size: 1.25rem;
-  border:1px solid #03ddffb6;
-  border-radius: 30px;
-  background: linear-gradient(45deg, #000c2629, #0a00153b,transparent); /* blue */
+  padding: 0.75rem 1.5rem;
+  font-size: 1rem;
+  border: 1px solid #03ddffb6;
+  border-radius: 1.865rem;
+  background: linear-gradient(45deg, #000c2629, #0a00153b, transparent);
   color: white;
   cursor: pointer;
   transition: background 0.3s ease;
@@ -52,7 +53,25 @@
 }
 
 .hero-button:hover {
-  background: #8a2be2; /* purple */
+  background: #2a024f;
+}
+
+.hero-image {
+  width: 15rem;
+  height: 15rem;
+  max-width: 80%;
+  margin: 2rem auto;
+  border: 2px solid #8a2be2;
+  border-radius: 50%;
+  overflow: hidden;
+  z-index: 2;
+}
+
+.hero-image img {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+  display: block;
 }
 
 .hero-background {
@@ -61,29 +80,19 @@
   left: -20%;
   width: 140%;
   height: 140%;
-  background: 
-  radial-gradient(circle at center, #4b6bb729, #892be23b, transparent 70%)
-
-  ;
+  background: radial-gradient(circle at center, #4b6bb729, #892be23b, transparent 70%);
   animation: backgroundPulse 6s ease-in-out infinite;
-  filter: blur(80px);
+  filter: blur(5rem);
   z-index: 1;
 }
-.hero-image {
-  width: 10rem;
-  height: 10rem;
-  margin-left: 40%;
-  border: 1px solid #8a2be2;
-  height: auto;
-}
-/* Animations */
 
+/* Animations */
 @keyframes typing {
   from {
     width: 0;
   }
   to {
-    width: 24ch;
+    width: 23ch;
   }
 }
 
@@ -95,7 +104,6 @@
     border-color: #2be2e2;
   }
 }
-
 
 @keyframes pulse {
   0%, 100% {
@@ -114,5 +122,122 @@
   }
   50% {
     opacity: 1;
+  }
+}
+
+/* -------- Media Queries -------- */
+
+/* 320px */
+@media (max-width: 320px) {
+  .hero-background{
+  background: red;
+  }
+  .hero-title {
+    font-size: 1.2rem;
+  }
+  .hero-subtitle {
+    font-size: 1rem;
+  }
+  .hero-button {
+    font-size: 0.9rem;
+    padding: 0.6rem 1.2rem;
+  }
+  .hero-image {
+    width: 10rem;
+    height: 10rem;
+  }
+}
+
+/* 425px */
+@media (max-width: 425px) {
+  .hero-title {
+    font-size: 1.5rem;
+  }
+  .hero-subtitle {
+    font-size: 1.1rem;
+  }
+  .hero-button {
+    font-size: 1rem;
+  }
+  .hero-image {
+    width: 12rem;
+    height: 12rem;
+  }
+}
+
+/* 768px — Already included but tweaked slightly */
+@media (min-width: 768px) {
+  .hero-section {
+    flex-direction: row;
+    justify-content: space-between;
+    padding-inline: 5rem;
+    text-align: left;
+  }
+
+  .hero-image {
+    width: 15rem;
+    height: 15rem;
+    margin: 0;
+  }
+
+  .hero-content {
+    max-width: 50%;
+  }
+
+  .hero-title {
+    font-size: 1.87rem;
+  }
+
+  .hero-subtitle {
+    font-size: 1.5rem;
+  }
+
+  .hero-button {
+    font-size: 1.25rem;
+  }
+}
+
+/* 1024px */
+@media (min-width: 1024px) {
+  .hero-title {
+    font-size: 2.5rem;
+  }
+  .hero-subtitle {
+    font-size: 1.6rem;
+  }
+  .hero-button {
+    font-size: 1.3rem;
+  }
+}
+
+/* 1440px */
+@media (min-width: 1440px) {
+  .hero-title {
+    font-size: 3.2rem;
+  }
+  .hero-subtitle {
+    font-size: 1.8rem;
+  }
+  .hero-button {
+    font-size: 1.4rem;
+  }
+}
+
+/* 2046px */
+@media (min-width: 2046px) {
+  .hero-title {
+    font-size: 4rem;
+  }
+  .hero-subtitle {
+    font-size: 2rem;
+  }
+  .hero-button {
+    font-size: 1.6rem;
+    padding: 1rem 2.5rem;
+  }
+
+  .hero-image {
+    width: 25rem;
+    height: 25rem;
   }
 }

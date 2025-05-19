@@ -41,7 +41,11 @@
   background-color: #8a2be2;
   transition: width 0.3s ease;
 }
-
+.icons{
+border-radius: 50%;
+width: 5rem;
+height: 5rem;
+}
 .footer-links a:hover {
   color: #8a2be2;
 }
