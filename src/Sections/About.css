@@ -3,7 +3,7 @@
   background: linear-gradient(135deg, #1a1a1a, #2a0d4a, #1a1a40);
   color: white;
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-  min-width: 100vh;
+  min-width: 100%;
   margin: 0 auto;
   text-align: center;
 }
