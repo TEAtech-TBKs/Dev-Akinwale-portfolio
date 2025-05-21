@@ -23,19 +23,25 @@ const projectsData = [
   },
   {
     id: 4,
-    title: 'Blog Platform',
-    description: 'A blogging platform with user authentication and content management.',
-    link: 'https://github.com/tolulopeakinwale/blog-platform',
+    title: 'Task Tracker',
+    description: 'A simple task tracking app with persistent state and filters.',
+    link: 'https://github.com/tolulopeakinwale/task-tracker',
   },
 ];
 
 const Projects = () => {
   return (
-    <section className="projects-section" id="projects-section">
-      <h2>Projects</h2>
+    <section className="projects-section" id="projects-section" data-aos="fade-up">
+      <h2 data-aos="zoom-in" data-aos-delay="100">Projects</h2>
       <div className="projects-grid">
-        {projectsData.map((project) => (
-          <Card key={project.id} title={project.title} description={project.description} link={project.link} />
+        {projectsData.map((project, index) => (
+          <div data-aos="fade-up" data-aos-delay={index * 200} key={project.id}>
+            <Card
+              title={project.title}
+              description={project.description}
+              link={project.link}
+            />
+          </div>
         ))}
       </div>
     </section>

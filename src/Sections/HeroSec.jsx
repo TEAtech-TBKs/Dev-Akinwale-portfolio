@@ -5,7 +5,7 @@ const HeroSec = () => {
   return (
     <>
       <section className="hero-section" id="hero">
-        <div className="hero-content">
+        <div className="hero-content"  data-aos="fade-up">
           <div className="hero-title">
        Hi, i'm
             <span className="typewriter"> Esther Akinwale</span>
@@ -14,7 +14,7 @@ const HeroSec = () => {
           <button className="hero-button">Explore My Work</button>
         </div>
         <div className="hero-background"></div>
-        <div className='hero-image'>
+        <div className='hero-image' data-aos="zoom-in">
         <img src="https://techsphereweb.my.canva.site/" alt="dev Esther" />
 
         </div>
