@@ -81,7 +81,7 @@
   width: 140%;
   height: 140%;
   background: radial-gradient(circle at center, #4b6bb729, #892be23b, transparent 70%);
-  animation: backgroundPulse 6s ease-in-out infinite;
+  animation: Pulse 6s ease-in-out infinite;
   filter: blur(5rem);
   z-index: 1;
 }
@@ -92,7 +92,7 @@
     width: 0;
   }
   to {
-    width: 23ch;
+    width: 20ch;
   }
 }
 
