@@ -10,7 +10,7 @@ const HeroSec = () => {
        Hi, i'm
             <span className="typewriter"> Esther Akinwale</span>
           </div>
-          <p className="hero-subtitle"> i'm a front-end web-developer</p>
+          <p className="hero-subtitle"> i'm a Full-stack web-developer</p>
           <button className="hero-button">Explore My Work</button>
         </div>
         <div className="hero-background"></div>
