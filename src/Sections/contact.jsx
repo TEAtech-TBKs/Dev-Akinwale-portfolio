@@ -14,10 +14,10 @@ const Contact = () => {
     e.preventDefault();
     emailjs.sendForm('service_tsn4arc', 'template_x5s9uk2', formRef.current, 'U8yfpGdCrpZVPokQQ')
       .then(() => {
-        alert('✅ Thank you for your message! I will get back to you soon.');
+        alert('Message sent successfully!');
         setFormData({ name: '', email: '', message: '' });
       }, () => {
-        alert('❌ Failed to send message, please try again later.');
+        alert('Failed to send message, please try again later.');
       });
   };
 
