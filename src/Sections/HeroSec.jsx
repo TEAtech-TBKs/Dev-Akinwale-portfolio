@@ -15,7 +15,7 @@ const HeroSec = () => {
         </div>
         <div className="hero-background"></div>
         <div className='hero-image'>
-        <img src="https://cloudinary-marketing-res.cloudinary.com/image/upload/ar_0.5,c_fill,g_auto,w_433/q_auto/f_auto/hiking_dog_mountain.jpg" alt="dev Esther" />
+        <img src="https://techsphereweb.my.canva.site/" alt="dev Esther" />
 
         </div>
       </section>
