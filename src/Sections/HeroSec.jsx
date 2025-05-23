@@ -1,4 +1,5 @@
 import React from 'react';
+import image from 'public/myimage.jpg'
 import './HeroSec.css';
 
 const HeroSec = () => {
@@ -15,7 +16,7 @@ const HeroSec = () => {
         </div>
         <div className="hero-background"></div>
         <div className='hero-image' data-aos="zoom-in">
-        <img src="https://techsphereweb.my.canva.site/" alt="dev Esther" />
+        <img src={image} alt="dev Esther" />
 
         </div>
       </section>
