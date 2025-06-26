@@ -57,11 +57,14 @@
 }
 
 .hero-image {
-  width: 15rem;
-  height: 15rem;
+  width: 10rem;
+  height: 10rem;
   max-width: 80%;
   margin: 2rem auto;
-  border: 2px solid #8a2be2;
+  border: 1px solid #3a2be2;
+  background:radial-gradient( #6326004e, #0000ff32), url('myimage.png');
+  background-size:cover;
+  background-position: center;
   border-radius: 50%;
   overflow: hidden;
   z-index: 2;
@@ -85,6 +88,7 @@
   filter: blur(5rem);
   z-index: 1;
 }
+
 
 /* Animations */
 @keyframes typing {
@@ -161,7 +165,8 @@
   }
   .hero-image {
     width: 12rem;
-    height: 12rem;
+    height: 15rem;
+    
   }
 }
 
@@ -239,5 +244,6 @@
   .hero-image {
     width: 25rem;
     height: 25rem;
+    
   }
 }
