@@ -1,12 +1,22 @@
-# React + Vite
+# My Portfolio Website
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Welcome to my personal portfolio website, built using **React** and designed with **responsive layouts** to ensure a seamless experience across devices.
 
-Currently, two official plugins are available:
+## Overview
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+This project showcases my skills, projects, and background as a front-end web developer. It includes sections like:
 
-## Expanding the ESLint configuration
+- **Hero Section** – Catchy introduction with call-to-action.
+- **About Me** – Brief background and bio.
+- **Skills** – Technologies and tools I use.
+- **Projects** – Selected works with links and previews.
+- **Contact** – Ways to get in touch.
+- **Custom Cursor & Animations** – Interactive UI elements for enhanced UX.
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## Features
+
+- Built with **React.js**
+- **Fully Responsive** for mobile, tablet, and desktop views
+- Clean and modern **UI/UX**
+- Modular and well-organized component structure
+- Scroll animations and custom cursor
