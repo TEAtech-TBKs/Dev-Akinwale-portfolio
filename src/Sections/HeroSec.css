@@ -44,15 +44,43 @@
   padding: 0.75rem 1.5rem;
   font-size: 1rem;
   border: 1px solid #03ddffb6;
-  border-radius: 1.865rem;
+  border-radius: 0.5rem;
+  margin-right: 0.5rem;
   background: linear-gradient(45deg, #000c2629, #0a00153b, transparent);
+  box-shadow:inset 2px 2px 6px #03ddff94, 
+  inset -2px -2px 6px #03ddff93;
   color: white;
   cursor: pointer;
-  transition: background 0.3s ease;
-  animation: pulse 2s infinite;
+  animation: puls 2s infinite;
+}
+.hero-button:hover {
+  border: 1px solid #03ddff41;
+  color: #2a024f;
+  font-weight: 500;
+  box-shadow:inset 2px 2px 6px #005b69a4, 
+             inset -2px -2px 6px #004853;
+  background-color: #03cdff;
+  transition: background 0.3 ease-in-out,border 0.3s ease;
+}
+.hero-btn-contact {
+  padding: .75rem 1.5rem;
+  font-weight: 500;
+  font-size: 1.2rem;
+  border: 1px solid #2a024f;
+  border-radius: 0.5rem;
+  background-color:#c403ffb6;
+  color: white;
+  cursor: pointer;
+  margin-left: 0.5rem;
+  box-shadow:inset 4px 4px 6px #2a024f, 
+  inset -4px -4px 6px #2a024f;
+  animation: puls 3s infinite;
 }
 
-.hero-button:hover {
+.hero-btn-contact:hover {
+  box-shadow:inset 4px 4px 6px #6600c5d0, 
+             inset -4px -4px 6px #6600c5d0;
+  transition: background-color 1s ease;
   background: #2a024f;
 }
 
@@ -62,7 +90,7 @@
   max-width: 80%;
   margin: 2rem auto;
   border: 1px solid #3a2be2;
-  background:radial-gradient( #6326004e, #0000ff32), url('myimage.png');
+  /* background:radial-gradient( #6326004e, #0000ff32), url('myimage.png'); */
   background-size:cover;
   background-position: center;
   border-radius: 50%;

@@ -1,5 +1,5 @@
 import React from 'react';
-// import image from '/src/Components/myimage.png'
+import image from "../images/BeautyPlus_20250625204543965_save.jpg"
 import './HeroSec.css';
 
 const HeroSec = () => {
@@ -13,11 +13,11 @@ const HeroSec = () => {
           </div>
           <p className="hero-subtitle"> i'm a Full-stack web-developer</p>
           <button className="hero-button">Explore My Work</button>
+          <button className="hero-btn-contact">Contact Me</button>
         </div>
         <div className="hero-background"></div>
         <div className='hero-image' data-aos="zoom-in">
-        {/* <img className='img' alt="dev Esther" /> */}
-
+          <img src={image} alt="" />
         </div>
       </section>
     </>

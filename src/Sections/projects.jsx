@@ -25,7 +25,7 @@ const projectsData = [
     id: 4,
     title: 'Task Tracker',
     description: 'A simple task tracking app with persistent state and filters.',
-    link: 'https://github.com/TEAtech-TBKs/stay-organized',
+    link: 'http://stay-organized-todo-odyu6elve-dev-akinwale.vercel.app/',
   },
  
 ];
