@@ -46,7 +46,7 @@
   border: 1px solid #03ddffb6;
   border-radius: 0.5rem;
   margin-right: 0.5rem;
-  background: linear-gradient(45deg, #000c2629, #0a00153b, transparent);
+  background-color:  #000c2629;
   box-shadow:inset 2px 2px 6px #03ddff94, 
   inset -2px -2px 6px #03ddff93;
   color: white;
@@ -60,7 +60,7 @@
   box-shadow:inset 2px 2px 6px #005b69a4, 
              inset -2px -2px 6px #004853;
   background-color: #03cdff;
-  transition: background 0.3 ease-in-out,border 0.3s ease;
+  transition: background-color 0.8s ease-in,border 0.5s ease, color 0.8s ease;
 }
 .hero-btn-contact {
   padding: .75rem 1.5rem;
@@ -71,7 +71,7 @@
   background-color:#c403ffb6;
   color: white;
   cursor: pointer;
-  margin-left: 0.5rem;
+  margin: 0.5rem;
   box-shadow:inset 4px 4px 6px #2a024f, 
   inset -4px -4px 6px #2a024f;
   animation: puls 3s infinite;
@@ -162,7 +162,7 @@
 /* 320px */
 @media (max-width: 320px) {
   .hero-background{
-  background: red;
+  background: rgb(22, 1, 56);
   }
   .hero-title {
     font-size: 1.2rem;
@@ -193,7 +193,7 @@
   }
   .hero-image {
     width: 12rem;
-    height: 15rem;
+    height: 12rem;
     
   }
 }

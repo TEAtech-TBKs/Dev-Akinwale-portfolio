@@ -27,6 +27,18 @@ const projectsData = [
     description: 'A simple task tracking app with persistent state and filters.',
     link: 'http://stay-organized-todo-odyu6elve-dev-akinwale.vercel.app/',
   },
+  {
+    id: 5,
+    title: 'Weather App',
+    description: 'A simple Weather App',
+    link: 'http://stay-organized-todo-odyu6elve-dev-akinwale.vercel.app/',
+  },
+  {
+    id: 6,
+    title: 'Calculator',
+    description: '',
+    link: 'http://stay-organized-todo-odyu6elve-dev-akinwale.vercel.app/',
+  },
  
 ];
 
