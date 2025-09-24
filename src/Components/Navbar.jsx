@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import { AnimatePresence, motion } from 'framer-motion';
+import logo from '../assets/TS.svg';
 import './Navbar.css';
 
 const navVariants = {
@@ -48,24 +49,28 @@ const Navbar = () => {
             exit="exit"
             variants={navVariants}
           >
+            <h1> Akinwale Esther</h1>
             <li><a href="#hero" onClick={closeMenu}>Home</a></li>
             <li><a href="#about-section" onClick={closeMenu}>About</a></li>
             <li><a href="#projects-section" onClick={closeMenu}>Projects</a></li>
             <li><a href="#contact-section" onClick={closeMenu}>Contact</a></li>
-            <h1>DevEstherPortfolio</h1>
           </motion.ul>
         )}
         
       </AnimatePresence>
 
       {/* Desktop Nav */}
+      <div className="logo-container">
+        <logo>
+          <h2 className='main-name'><img className='logo-img' src={logo} alt="logo" /> Akinwale <span className="name">Esther</span></h2>
+        </logo>
+      </div>
       <ul className="nav-links desktop">
         <li><a href="#hero">Home</a></li>
         <li><a href="#about-section">About</a></li>
         <li><a href="#projects-section">Projects</a></li>
         <li><a href="#contact-section">Contact</a></li>
       </ul>
-      <h1>DevEstherPortfolio</h1>
     </nav>
   );
 };

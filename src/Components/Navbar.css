@@ -6,13 +6,13 @@
 }
 
 .navbar {
-  color: white;
+  color: rgb(235, 234, 234);
   padding: 0.8rem 1.5rem;
   display: flex;
   justify-content: space-between;
   align-items: center;
   position: relative;
-  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-family:Arial, Helvetica, sans-serif;
   z-index: 999;
   background: transparent;
 }
@@ -26,8 +26,9 @@
 
 .nav-links.desktop li a {
   text-decoration: none;
-  color: white;
-  font-weight: 600;
+  color: rgb(221, 220, 220);
+  font-weight: 500;
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   position: relative;
   transition: color 0.3s ease, transform 0.3s ease;
   animation: fadeIn 3s ease forwards;
@@ -35,7 +36,7 @@
 
 .nav-links.desktop li a:hover {
   color: #8a2be2;
-  transform: scale(1.05);
+  transform: scale(1.5);
 }
 
 .nav-links.desktop li a::after {
@@ -81,6 +82,15 @@
 .nav-links.mobile li a:hover {
   color: #8a2be2;
 }
+.main-name{
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color: #f5a8ff;
+  padding-left: 4rem;
+  font-weight: 600;
+}
+.name{
+  color: #adfaff;
+}
 
 /* Hamburger Menu */
 .hamburger {
@@ -98,6 +108,9 @@
   border-radius: 5px;
 }
 
+.logo-img{
+  width: 30px;
+}
 /* Fade animation */
 @keyframes fadeIn {
   from { opacity: 0; transform: translateY(-10px); }
@@ -109,8 +122,34 @@
   .hamburger {
     display: flex;
   }
+  
+  .nav-links.desktop {
+    display: none;
+  }
+}
+@media (max-width: 425px) and (min-width: 320px) {
+  .hamburger {
+    display: flex;
+  }
 
   .nav-links.desktop {
     display: none;
+  }
+  .navbar{
+    flex-direction: row;
+    justify-content: space-between;
+  }
+  .logo-container{
+    display: flex;
+    padding: 1rem 0 0 0;
+    /* border: 1px solid  red; */
+  }
+.logo-img{
+  width: 30px;
+  display: none;
+}
+  .main-name{
+    font-size: 1.2rem;
+    font-weight: 400;
   }
 }

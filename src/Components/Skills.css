@@ -1,34 +1,83 @@
-.skills-section {
-padding: 2rem 2rem 3rem 2rem;
-background-color: #0d0012; 
-border-radius: 8px;
-box-shadow:inset 0rem 0rem 0.7rem  #47394e,
-           0rem 0rem 1rem #6400ac; 
-max-width: 400px;
-margin: 3rem auto;
-color: #eee; / light text color */
-}
 
-.skills-title {
-font-size: 1.5rem;
-margin-bottom: 1rem;
-text-align: center;
-color: #eee;
+.image{
+    width: 10.125rem;
+    height: 10.125rem;
+  border-radius: 8px;
+  transform: rotate(-90deg);
+  margin: 2rem;
+  opacity: 30%;
 }
-
-.skills-list {
-list-style: none;
-padding: 0;
-display: flex;
-flex-wrap: wrap;
-justify-content: center;
-gap: 0.5rem;
+.js{
+    background: #f8e8001a;
+  border: 1px solid rgb(222, 247, 1);
 }
+.html{
+    background: #ff7c301a;
+    border: 1px solid rgb(247, 161, 1);
+}
+marquee{
+    padding: 0.5rem 1rem;
+}
+.node{
+    background: #9eff301a;
+    border: 1px solid rgb(0, 156, 65);
 
-.skill-item {
-background-color: #007acc;
-color: white;
-padding: 0.4rem 0.8rem;
-border-radius: 20px;
-font-size: 0.9rem;
+}
+.react{
+    background: #30e0ff1a;
+    border: 1px solid rgb(1, 210, 247);
+    
+}
+.git{
+    background: #ff7c301a;
+    border: 1px solid rgb(247, 38, 1);
+
+}
+.boot{
+    background: #bd30ff1a;
+    border: 1px solid rgb(206, 1, 247);
+
+}
+.css{
+    background: #309bff1a;
+    border: 1px solid rgb(1, 87, 247);
+
+}
+.express{
+    background: #fff1301a;
+    border: 1px solid rgb(222, 247, 1);
+
+}
+.mongo{
+    background: #0074272c;
+    border: 1px solid rgb(1, 247, 34);
+}
+.mongo:hover{
+    box-shadow:-2px -2px 6px #004853;
+    transition: transform 0.3s ease;
+}
+progress{
+  width: 10%;
+  position: absolute;
+  top:13.5rem;
+}
+/* @media screen and (max-width: 768px) {
+     progress{
+       width: 20%;
+       height: 15px;
+       position: absolute;
+       left:calc(100% - 78%);
+       top: 15.5rem;
+}   
+} */
+
+@media screen and (max-width: 425px){
+     progress{
+       width: 35%;
+       height: 15px;
+       position: absolute;
+       left:calc(100% - 68%);
+       top: 15.5rem;
+       background-color: BLUE;
+}   
 }
