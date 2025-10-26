@@ -3,6 +3,7 @@ import img1 from "../assets/portfolio.png";
 import img2 from "../assets/beauty1.png";
 import img3 from "../assets/beauty2.png";
 import icon1 from "../assets/github.png";
+import imgDigital from '../assets/DigitalMarketing.png'
 
 import './Card.css';
 
@@ -24,6 +25,7 @@ const cardinfo = [
     title: 'E-commerce Store',
     description: 'A full-stack e-commerce application using React, Node.js, and MongoDB.',
     link: 'https://github.com/tolulopeakinwale/ecommerce-store',
+    gitLink: 'https://github.com/TEAtech-TBKs/Dev-Akinwale-portfolio',
     alt: 'face logo',
     frameworks: [
       'React', 'CSS', 'JavaScript', 'HTML', 'GitHub', 'Vercel',
@@ -36,6 +38,7 @@ const cardinfo = [
     title: 'Task Tracker',
     description: 'A simple task tracking app with persistent state and filters.',
     link: 'http://stay-organized-todo-odyu6elve-dev-akinwale.vercel.app/',
+    gitLink: 'https://github.com/TEAtech-TBKs/Dev-Akinwale-portfolio',
     alt: 'insta logo',
     frameworks: ['React', 'CSS', 'JavaScript', 'HTML', 'GitHub', 'Vercel', 'Rest API'],
   },
@@ -45,6 +48,7 @@ const cardinfo = [
     title: 'Weather App',
     description: 'A simple Weather App',
     link: 'http://stay-organized-todo-odyu6elve-dev-akinwale.vercel.app/',
+    gitLink: 'https://github.com/TEAtech-TBKs/Dev-Akinwale-portfolio',
     alt: 'insta logo',
     frameworks: ['React', 'CSS', 'JavaScript', 'HTML', 'GitHub', 'Vercel', 'Rest API'],
   },
@@ -54,6 +58,17 @@ const cardinfo = [
     title: 'Calculator',
     description: '',
     link: 'http://stay-organized-todo-odyu6elve-dev-akinwale.vercel.app/',
+    gitLink: 'https://github.com/TEAtech-TBKs/Dev-Akinwale-portfolio',
+    alt: 'insta logo',
+    frameworks: ['React', 'CSS', 'JavaScript', 'HTML', 'GitHub', 'Vercel', 'Rest API'],
+  },
+  {
+    id: 5,
+    imageUrl: imgDigital,
+    title: 'Digital Marketing Agency Website',
+    description: 'A digital marketing agency website template built with React and Tailwind CSS.',
+    link: 'https://digital-marketing-template-phi.vercel.app/',
+    gitLink: 'https://github.com/TEAtech-TBKs/Modern-react-Landing-Page-template-for-Digital-Marketing-Buisness',
     alt: 'insta logo',
     frameworks: ['React', 'CSS', 'JavaScript', 'HTML', 'GitHub', 'Vercel', 'Rest API'],
   },
