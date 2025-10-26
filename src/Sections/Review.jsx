@@ -2,7 +2,7 @@
 import React, { useState } from "react";
 import "./Review.css"; // make sure to style it
 
-const reviews = [
+const reviewApi = [
   {
     id: 1,
     text: "Tolulope is an exceptional human. He has no ego, does things the right way, and is truly trustworthy. One thing I can say is that I've never met anyone like him. His skills are legendary, and his work ethic is above the rest. If you choose to work with Taiwo, you won’t be making the wrong decision.",
@@ -30,11 +30,11 @@ const Review = () => {
   const [current, setCurrent] = useState(0);
 
   const nextReview = () => {
-    setCurrent((prev) => (prev + 1) % reviews.length);
+    setCurrent((prev) => (prev + 1) % reviewApi.length);
   };
 
   const prevReview = () => {
-    setCurrent((prev) => (prev - 1 + reviews.length) % reviews.length);
+    setCurrent((prev) => (prev - 1 + reviewApi.length) % reviewApi.length);
   };
 
   return (
@@ -53,12 +53,12 @@ const Review = () => {
 
         <div className="review-content">
           <span className="quote">❝</span>
-          <p className="review-text">{reviews[current].text}</p>
+          <p className="review-text">{reviewApi[current].text}</p>
           <div className="reviewer">
-            <div className="reviewer-initial">{reviews[current].initial}</div>
+            <div className="reviewer-initial">{reviewApi[current].initial}</div>
             <div>
-              <h4 className="reviewer-name">{reviews[current].name}</h4>
-              <p className="reviewer-role">{reviews[current].role}</p>
+              <h4 className="reviewer-name">{reviewApi[current].name}</h4>
+              <p className="reviewer-role">{reviewApi[current].role}</p>
             </div>
           </div>
         </div>
@@ -69,7 +69,7 @@ const Review = () => {
       </div>
 
       <div className="dots">
-        {reviews.map((_, idx) => (
+        {reviewApi.map((_, idx) => (
           <span
             key={idx}
             className={`dot ${idx === current ? "active" : ""}`}

@@ -7,11 +7,11 @@ import Contact from './Sections/contact';
 import Footer from './Components/Footer';
 import './App.css';
 import CustomCursor from './Components/CustomCursor';
+import { useEffect } from 'react';
+import Review from './Sections/Review';
 import AOS from 'aos';
 import 'aos/dist/aos.css';
 
-import { useEffect } from 'react';
-import Review from '../Sections/Review';
 
 const App = () => {
 
