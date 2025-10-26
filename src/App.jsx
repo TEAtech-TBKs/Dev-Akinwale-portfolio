@@ -11,6 +11,7 @@ import AOS from 'aos';
 import 'aos/dist/aos.css';
 
 import { useEffect } from 'react';
+import Review from './Sections/review';
 
 const App = () => {
 
@@ -27,6 +28,7 @@ const App = () => {
       <HeroSec />
       <About />
       <Projects />
+      <Review/>
       <Contact />
       <Footer />
     </>

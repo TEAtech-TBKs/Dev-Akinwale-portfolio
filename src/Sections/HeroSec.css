@@ -11,8 +11,8 @@
   position: relative;
   overflow: hidden;
   color: white;
-  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-  background: rgb(0, 9, 8);
+  font-family: 'inter', sans-serif;
+  background: #000908;
 }
 
 .hero-content {
@@ -32,12 +32,14 @@
 
 .typewriter {
   color: #00e1ff;
+  font-weight: 500;
 }
 
 .hero-subtitle {
   font-size: 1.2rem;
   margin-bottom: 1.5rem;
-  color: #e0e0fe;
+  color: #cecece;
+  font-weight: 300;
 }
 
 .hero-button {

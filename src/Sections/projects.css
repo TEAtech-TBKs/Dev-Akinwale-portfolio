@@ -1,8 +1,7 @@
 .projects-section {
   padding: 4rem 2rem;
-  background: linear-gradient(135deg, #181111, #2a0d4a, #1a1a40);
+  background: linear-gradient(  #0d0012, #2a0d4a);
   color: white;
-  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   min-width: 100%;
   margin: 0 auto;
   text-align: center;
@@ -11,7 +10,7 @@
 .projects-section h2 {
   font-size: 2.5rem;
   margin-bottom: 2.5rem;
-  color: #efcbff;
+  color:#c7f1fc;
   animation: fadeInDown 1s ease forwards;
 }
 @keyframes fadeInDown {

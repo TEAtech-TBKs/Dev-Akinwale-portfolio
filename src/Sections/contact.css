@@ -2,7 +2,6 @@
   padding: 4rem 2rem;
   background: linear-gradient(135deg, #1a1a1a, #2a0d4a, #1a1a40);
   color: white;
-  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   text-align: center;
 }
 
@@ -34,7 +33,6 @@
   border: none;
   border-radius: 8px;
   font-size: 1rem;
-  font-family: inherit;
   resize: vertical;
 }
 
