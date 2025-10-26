@@ -49,7 +49,7 @@ const Navbar = () => {
             exit="exit"
             variants={navVariants}
           >
-            <h1> Akinwale Esther</h1>
+            <h1> T.E Akin</h1>
             <li><a href="#hero" onClick={closeMenu}>Home</a></li>
             <li><a href="#about-section" onClick={closeMenu}>About</a></li>
             <li><a href="#projects-section" onClick={closeMenu}>Projects</a></li>

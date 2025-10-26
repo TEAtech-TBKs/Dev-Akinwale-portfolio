@@ -1,7 +1,7 @@
 /* Base Styles */
 .hero-section {
-  height: 100vh;
-  width: 100vw;
+  height: 94vh;
+  min-width: 100%;
   display: flex;
   flex-direction: column-reverse;
   justify-content: center;

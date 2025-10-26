@@ -19,11 +19,13 @@
   color: #befbff;
   &:hover{
     border: 1px solid #befbff;
-    background: linear-gradient(to top,#181717,#4e02ff88);
-    box-shadow: -1px 1px 20px 1px #00d9ff3f,
-    -1px -10px 30px #b6e9e560;
+    background: linear-gradient(to top,#181717b0,#4e02ff75);
     transition: all 0.3s ease-in-out;
   }
+}
+.card-container:active{
+  box-shadow: -1px 1px 20px 1px #00d9ff3f,
+  -1px -10px 30px #b6e9e560;
 }
 .card{
   border-radius: 15px;
