@@ -67,7 +67,7 @@ const Card = () => {
           <div className="card" data-aos="fade-up" data-aos-delay="200">
             <a href={info.link} target="_blank" rel="noopener noreferrer">
               <img
-                className="card-img "
+                className="card-img"
                 src={info.imageUrl}
                 alt={info.alt}
               />
