@@ -38,46 +38,44 @@ const Review = () => {
   };
 
   return (
-    <section className="review-section">
-      <h2 className="review-title">
-        What <span>People Say</span>
-      </h2>
-      <p className="review-subtitle">
-        Feedback from clients and colleagues I've had the pleasure to work with.
-      </p>
-
-      <div className="review-card">
-        <button className="arrow left" onClick={prevReview}>
-          &#8249;
-        </button>
-
-        <div className="review-content">
-          <span className="quote">❝</span>
-          <p className="review-text">{reviewApi[current].text}</p>
-          <div className="reviewer">
-            <div className="reviewer-initial">{reviewApi[current].initial}</div>
-            <div>
-              <h4 className="reviewer-name">{reviewApi[current].name}</h4>
-              <p className="reviewer-role">{reviewApi[current].role}</p>
+    <div className="review-parent">
+      <section className="review-section">
+        <h2 className="review-title">
+          What <span>People Say</span>
+        </h2>
+        <p className="review-subtitle">
+          Feedback from clients and colleagues I've had the pleasure to work with.
+        </p>
+        <div className="review-card">
+          <button className="arrow left" onClick={prevReview}>
+            &#8249;
+          </button>
+          <div className="review-content">
+            <span className="quote">❝</span>
+            <p className="review-text">{reviewApi[current].text}</p>
+            <div className="reviewer">
+              <div className="reviewer-initial">{reviewApi[current].initial}</div>
+              <div>
+                <h4 className="reviewer-name">{reviewApi[current].name}</h4>
+                <p className="reviewer-role">{reviewApi[current].role}</p>
+              </div>
             </div>
           </div>
+          <button className="arrow right" onClick={nextReview}>
+            &#8250;
+          </button>
         </div>
-
-        <button className="arrow right" onClick={nextReview}>
-          &#8250;
-        </button>
-      </div>
-
-      <div className="dots">
-        {reviewApi.map((_, idx) => (
-          <span
-            key={idx}
-            className={`dot ${idx === current ? "active" : ""}`}
-            onClick={() => setCurrent(idx)}
-          ></span>
-        ))}
-      </div>
-    </section>
+        <div className="dots">
+          {reviewApi.map((_, idx) => (
+            <span
+              key={idx}
+              className={`dot ${idx === current ? "active" : ""}`}
+              onClick={() => setCurrent(idx)}
+            ></span>
+          ))}
+        </div>
+      </section>
+    </div>
   );
 };
 
