@@ -5,14 +5,14 @@ import "./Review.css"; // make sure to style it
 const reviews = [
   {
     id: 1,
-    text: "Taiwo is an exceptional human. He has no ego, does things the right way, and is truly trustworthy. One thing I can say is that I've never met anyone like him. His skills are legendary, and his work ethic is above the rest. If you choose to work with Taiwo, you won’t be making the wrong decision.",
+    text: "Tolulope is an exceptional human. He has no ego, does things the right way, and is truly trustworthy. One thing I can say is that I've never met anyone like him. His skills are legendary, and his work ethic is above the rest. If you choose to work with Taiwo, you won’t be making the wrong decision.",
     name: "Kameron Seabrook",
     role: "CEO, Co-founder of OBAI",
     initial: "K",
   },
   {
     id: 2,
-    text: "Working with Tolulope was a wonderful experience. She always delivers quality projects on time and communicates clearly throughout the process.",
+    text: "Working with phina was a wonderful experience. She always delivers quality projects on time and communicates clearly throughout the process.",
     name: "Jane Doe",
     role: "Product Manager",
     initial: "J",
