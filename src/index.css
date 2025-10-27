@@ -9,6 +9,7 @@
 body {
   margin: 0;
   padding: 0;
+  background:linear-gradient(#200000a9, #0d001af8), url('./images/BeautyPlus_20250625204543965_save.jpg');
   background-color:#000908;
   color: #e0e0ff;
   overflow-x: hidden;

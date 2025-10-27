@@ -1,8 +1,9 @@
 /* Reset */
 * {
-  margin: 0;
-  padding: 0;
   box-sizing: border-box;
+}
+nav{
+  background: black;
 }
 
 .navbar {
@@ -13,7 +14,6 @@
   align-items: center;
   position: relative;
   z-index: 999;
-  background: transparent;
 }
 
 /* Desktop nav */
@@ -140,6 +140,7 @@
   .logo-container{
     display: flex;
     padding: 1rem 0 0 0;
+    background-color: black;
     /* border: 1px solid  red; */
   }
 .logo-img{

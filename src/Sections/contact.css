@@ -1,14 +1,41 @@
-.contact-section {
-  padding: 4rem 2rem;
+.contact-form-container{
   background:  linear-gradient(  #0d0012, #2a0d4a);
-  color: white;
+  justify-items: center;
+  padding: 2rem;
+}
+
+.contactUs{
+  width: 50%;
+  background-color: #00051f;
+  padding: 2rem;
+  text-align: left;
+}
+.hireCTa{
+  display: inline-flex;
+  gap: .5rem;
+}
+.hireCTa-h1{
+  display: inline;
+  border-bottom: 2px solid #8a2be2;
+}
+.contact-section {
+  display: flex;
+  justify-content: center ;
+  width: 90%;
+  background-color: rgb(234, 227, 236);
+  border-radius: .3125rem;
+  text-align: left;
+}
+.form-section{
+  padding: 2rem;
   text-align: center;
+  width: 50%;
 }
 
 .contact-section h2 {
   font-size: 2.5rem;
   margin-bottom: 2rem;
-  color: #c7f1fc;
+  color: #3c2981;
 }
 
 .contact-form {
@@ -17,6 +44,7 @@
   display: flex;
   flex-direction: column;
   gap: 1.5rem;
+  
 }
 
 .contact-form label {
@@ -24,13 +52,13 @@
   text-align: left;
   display: block;
   margin-bottom: 0.5rem;
-  color: #b0b0ff;
+  color: #26263a;
 }
 
 .contact-form input,
 .contact-form textarea {
+  border: 1px solid #8a2be2;
   padding: 0.75rem 1rem;
-  border: none;
   border-radius: 8px;
   font-size: 1rem;
   resize: vertical;
@@ -38,7 +66,7 @@
 
 .contact-form input:focus,
 .contact-form textarea:focus {
-  outline: 2px solid #8a2be2;
+  outline: 1px solid #8a2be2;
   background-color: #1a1a40;
   color: white;
 }
@@ -48,12 +76,12 @@
   font-size: 1.25rem;
   border: none;
   border-radius: 30px;
-  background: #4b6cb7;
+  background: #0f19a7;
   color: white;
   cursor: pointer;
   transition: background 0.3s ease;
 }
 
 .contact-form button:hover {
-  background: #8a2be2;
+  background: #150027;
 }

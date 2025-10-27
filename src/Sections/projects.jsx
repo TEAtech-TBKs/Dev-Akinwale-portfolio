@@ -50,22 +50,14 @@ const projectsData = [
 
 const Projects = () => {
   return (
-    <section className="projects-section" id="projects-section" data-aos="fade-up">
-      <h2 data-aos="zoom-in" data-aos-delay="100">Projects</h2>
-      <div className="projects-grid">
-        {/* {projectsData.map((project, index) => (
-          <div data-aos="fade-up" data-aos-delay={index * 200} key={project.id}>
-            <Card
-              // image={project.image}
-              // title={project.title}
-              // description={project.description}
-              // link={project.link}
-            />
-          </div>
-        ))} */}
-        <Card />
-      </div>
-    </section>
+    <div className="project-Parent">
+      <section className="projects-section" id="projects-section" data-aos="fade-up">
+        <h2 data-aos="zoom-in" data-aos-delay="100">Projects</h2>
+        <div className="projects-grid">
+          <Card />
+        </div>
+      </section>
+    </div>
   );
 };
 
