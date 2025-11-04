@@ -1,7 +1,8 @@
 import React, { useState, useRef } from 'react';
 import emailjs from 'emailjs-com';
+import cv from '../assets/ESTHER_AKINWALE_CV.pdf';
 import './contact.css';
-import { FaEnvelope } from 'react-icons/fa';
+import { FaEnvelope, FaWhatsapp } from 'react-icons/fa';
 
 const Contact = () => {
   const formRef = useRef();
@@ -32,12 +33,16 @@ const Contact = () => {
       <div className='hireCTa'><h1 className='hireCTa-h1'>Hire </h1> <h1> Me</h1></div>
             <div className="contactUs-content">
               <h1>Let's Work Together</h1>
-              <p>Interested in working together? Fill out the form to start a conversation about your project. I'll get back to you as soon as possible.</p>
-              <a href="mailto:tolulopeakinwale955@gmail.com"><span><FaEnvelope/>   </span>
-                Email
-           
+              <p>Interested in working together? Fill out the form to start a conversation about your project. I'll get back to you as soon as possible.</p> <br />
+              <a href="mailto:tolulopeakinwale955@gmail.com"><span><FaEnvelope className='envelope'/>   </span>
+                <span className='email-title'>Email: </span><br />
                 tolulopeakinwale955@gmail.com
-              </a>
+              </a> <br />
+            <a className='cv-button' href={cv} title='Get To Know Dev Akin' rel='noopener' target='_blank'>View Cv</a>
+            </div>
+            <div className="direct-contact">
+              <h4>Need immediate assistance ?</h4>
+              <a href="https://wa.me/+2347035101578" target='_blank' rel='noopener'> <FaWhatsapp className='watsapp'/> Contact Me </a>
             </div>
           </section>
         <div className="form-section">

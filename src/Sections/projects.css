@@ -1,17 +1,18 @@
 .projects-section {
-  border: 1px solid rgba(128, 128, 128, 0.288);
   color: rgb(32, 32, 32);
   margin: 0 auto;
-  background: rgba(55, 52, 56, 0.514);
+  background: linear-gradient(  #0d0012b2, #2a0d4a);
+  backdrop-filter: grayscale(60%);
   text-align: center;
   padding: 2rem 4rem ;
-  border-radius: 10px;
-}
-.project-Parent{
-  padding: 2rem 4rem ;
   min-width: 100%;
-  background: linear-gradient(  #0d0012, #2a0d4a);
+  justify-items: center;
+  /* border: 1px solid rgba(128, 128, 128, 0.288); */
+  /* border-radius: 10px; */
 }
+/* .project-Parent{
+  padding: 2rem 4rem ;
+} */
 .projects-section h2 {
   font-size: 2.5rem;
   margin-bottom: 2.5rem;

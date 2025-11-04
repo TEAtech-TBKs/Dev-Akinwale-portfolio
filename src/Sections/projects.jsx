@@ -50,14 +50,14 @@ const projectsData = [
 
 const Projects = () => {
   return (
-    <div className="project-Parent">
+    // <div className="project-Parent">
       <section className="projects-section" id="projects-section" data-aos="fade-up">
         <h2 data-aos="zoom-in" data-aos-delay="100">Projects</h2>
         <div className="projects-grid">
           <Card />
         </div>
       </section>
-    </div>
+    // </div>
   );
 };
 

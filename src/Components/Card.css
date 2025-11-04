@@ -11,11 +11,10 @@
   transition: transform 0.3s ease, box-shadow 0.3s ease;
   cursor: pointer;
   border: 1px solid #3f3f3fa4;
-  /* animation: cardFadeIn 1s ease forwards; */
+  animation: cardFadeIn 1s ease forwards;
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
-  /* height: 500px; */
   color: #befbff;
   &:hover{
     border: 1px solid #befbff;

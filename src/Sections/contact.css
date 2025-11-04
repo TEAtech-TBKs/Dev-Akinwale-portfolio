@@ -3,12 +3,47 @@
   justify-items: center;
   padding: 2rem;
 }
-
+.contactUs-content{
+  width: 100%;
+  overflow: hidden;
+}
+.contactUs-content a{
+  color: #dbdbdb;
+}
+.envelope{
+  color: #2bb7e2;
+  font-size: 1.4rem;
+  transform: translate(0rem, 0.23rem);
+}
+.email-title{
+  color: #c9c9c9;
+  font-weight: 300;
+}
 .contactUs{
   width: 50%;
   background-color: #00051f;
   padding: 2rem;
   text-align: left;
+}
+.direct-contact{
+  text-align: bottom;
+  transform: translate(0rem, 6.6rem);
+}
+.watsapp{
+  font-size: 1rem;
+  font-weight: 700;
+  color: #e9e9e9;
+  transform: translate(0rem, 0.1rem);
+}
+.direct-contact a{
+  padding: 0.5rem 4rem;
+  font-size: 1rem;
+  border-radius: 0.5rem;
+  background-color: #239e41;
+  color: white;
+  cursor: pointer;
+  border: none;
+  transform: translate(0rem, 0.45rem);
 }
 .hireCTa{
   display: inline-flex;
@@ -18,6 +53,18 @@
   display: inline;
   border-bottom: 2px solid #8a2be2;
 }
+.cv-button{
+  padding: 0.5rem 1rem;
+  font-size: 1rem;
+  border-radius: 0.5rem;
+  background-color:  #731cffee;
+  color: white;
+  cursor: pointer;
+  position: absolute;
+  transform: translate( 0rem, 1rem); 
+  text-decoration: none;
+
+}
 .contact-section {
   display: flex;
   justify-content: center ;
@@ -26,6 +73,7 @@
   border-radius: .3125rem;
   text-align: left;
 }
+
 .form-section{
   padding: 2rem;
   text-align: center;
@@ -72,16 +120,46 @@
 }
 
 .contact-form button {
-  padding: 0.75rem 2rem;
-  font-size: 1.25rem;
-  border: none;
-  border-radius: 30px;
-  background: #0f19a7;
+  padding: 0.5rem 1rem;
+  font-size: 1rem;
+  border-radius: 0.5rem;
+  background-color:  #6bb8ff;
   color: white;
   cursor: pointer;
+  border: none;
   transition: background 0.3s ease;
 }
 
 .contact-form button:hover {
   background: #150027;
+}
+
+@media (max-width: 425px) {
+  .contact-section {
+    flex-direction: column;
+    flex-wrap: wrap;
+    width: 100%;
+    font-size: 14px;
+  }
+  .cv-button{
+    display: none;
+  }
+  .direct-contact{
+    transform: translate(0rem, 1rem);
+  }
+  .direct-contact a{
+    padding: 0.5rem 1rem;
+    font-size: 14px;
+  }
+  .watsapp{
+    font-size: 1rem;
+    font-weight: 900;
+    transform: translate(0rem, 0.1rem);}
+  /* .contactUs-content{
+    font-size: 14px;
+  } */
+  .form-section, .contactUs{
+    width: 100%;
+  }
+  
 }

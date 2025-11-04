@@ -1,13 +1,14 @@
 .hero-section {
   min-width: 100%;
+  min-height:100%;
   display: flex;
   justify-content: center;
   justify-items: center;
   gap: 5px;
-  border: 1px solid red;
+  /* border: 1px solid red; */
   padding: 5rem 5rem 0;
   font-family: 'inter', sans-serif;
-  background: linear-gradient(rgb(75, 0, 0),#0d0012);
+  background: linear-gradient(rgb(0, 39, 75),#0d0012);
 }
 
 .hero-content {

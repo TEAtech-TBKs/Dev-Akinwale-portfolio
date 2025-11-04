@@ -14,7 +14,9 @@ body {
   color: #e0e0ff;
   overflow-x: hidden;
   scroll-behavior: smooth;
-  background-attachment: scroll;
+  background-attachment: fixed;
+  background-position: center;
+  backdrop-filter: grayscale(50%);
 }
 
 a {
