@@ -79,5 +79,11 @@ progress{
        left:calc(100% - 68%);
        top: 15.5rem;
        background-color: BLUE;
-}   
+}  
+.image{
+    width: 5.125rem;
+    height: 5.125rem;
+    filter: grayscale(100%);
+  
+} 
 }
