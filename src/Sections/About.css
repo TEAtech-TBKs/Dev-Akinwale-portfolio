@@ -24,3 +24,11 @@
   margin-bottom: 1rem;
   color: #b0b0ff;
 }
+
+@media (max-width:425px) {
+  .wrap-cont{
+   text-align: center;
+   width: 100%;
+  }
+  
+}
