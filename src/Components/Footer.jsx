@@ -4,7 +4,7 @@ import { FaGithub, FaLinkedin, FaEnvelope } from 'react-icons/fa';
 const Footer = () => {
   return (
     <footer className="footer" data-aos="fade-up">
-      <p data-aos="fade-up" data-aos-delay="100">
+      <p data-aos="fade-up" data-aos-delay="50">
         © 2024 Tolulope Esther Akinwale. <br /> All rights reserved.
       </p>
       <div className="footer-links" data-aos="fade-up" data-aos-delay="200">
