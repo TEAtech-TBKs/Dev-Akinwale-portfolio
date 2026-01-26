@@ -8,14 +8,15 @@ const About = () => {
         <h2 data-aos="fade-down">About Me</h2>
       <div className="wrap-cont">
         <p data-aos="fade-up" data-aos-delay="200">
-          I am Tolulope Esther Akinwale, a passionate web developer specializing in creating beautiful,
-          responsive, and user-friendly web applications. With expertise in modern web technologies, I strive to
-          craft seamless digital experiences that engage and inspire.
+          Hi, I’m Tolulope Esther Akinwale. I love building web apps that are clean, responsive, and easy to use. 
+          Using modern web technologies, I aim to create experiences that feel smooth, intuitive, and enjoyable for users.
         </p>
+
         <p data-aos="fade-up" data-aos-delay="400">
-          Skilled in JavaScript, React, Node.js, and CSS, I enjoy turning complex problems into elegant solutions.
-          I am always eager to learn and grow in the ever-evolving world of web development.
+          I work with JavaScript, React, Node.js, and CSS, and I really enjoy turning tricky problems into simple, elegant solutions. 
+          I’m always curious and learning new things, trying to stay on top of the fast-moving world of web development.
         </p>
+
         <div data-aos="fade-up" data-aos-delay="600">
           <Skills />
         </div>

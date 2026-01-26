@@ -5,7 +5,6 @@
   justify-content: center;
   justify-items: center;
   gap: 5px;
-  /* border: 1px solid red; */
   padding: 5rem 5rem 0;
   font-family: 'inter', sans-serif;
   background: linear-gradient(rgb(0, 39, 75),#0d0012);
@@ -22,12 +21,13 @@
 }
 
 .hero-title {
-  font-size: 2rem;
-  width: 100%;
+  font-size: 2.5rem;
+  color: whitesmoke;
+  width: 83%;
   white-space: nowrap;
   overflow: hidden;
-  border-right: 0.15em solid #8a2be2;
-  animation: typing 4s steps(22), blink-caret 1s step-end infinite;
+  border-right: 0.15rem solid ;
+  animation: typing 4s steps(15), blink-caret 1s step-end infinite;
 }
 
 .typewriter {
@@ -37,9 +37,31 @@
 
 .hero-subtitle {
   font-size: 1.2rem;
-  margin-bottom: 1.5rem;
+  margin: 0.5rem 0 1rem ;
   color: #cecece;
   font-weight: 300;
+}
+.proficiency{
+  color: #00e1ff;
+  font-weight: 300;
+  font-size: 1.5rem;
+  animation:  introduction 3s infinite ease-in-out;;
+}
+
+@keyframes introduction {
+  0% { opacity: 0; }
+  15% { opacity: 1; }
+  85% { opacity: 1; }
+  100% { opacity: 0; }
+}
+
+
+.hero-description {
+  font-size: 1rem;
+  margin-bottom: 1.5rem;
+  font-weight: 200;
+  color: #e0fbff;
+  line-spacing: 150%;
 }
 
 .hero-button {
@@ -113,7 +135,7 @@
     width: 0;
   }
   to {
-    width: 23ch;
+    width: 15ch;
   }
 }
 
@@ -206,7 +228,7 @@
   }
 
   .hero-title {
-    font-size: 1.87rem;
+    font-size: 3rem;
   }
 
   .hero-subtitle {
