@@ -5,26 +5,28 @@ import "./Review.css"; // make sure to style it
 const reviewApi = [
   {
     id: 1,
-    text: "Tolulope is an exceptional human. He has no ego, does things the right way, and is truly trustworthy. One thing I can say is that I've never met anyone like him. His skills are legendary, and his work ethic is above the rest. If you choose to work with Taiwo, you won’t be making the wrong decision.",
-    name: "Kameron Seabrook",
-    role: "CEO, Co-founder of OBAI",
-    initial: "K",
+    text: "Working with Esther has been amazing. She’s always calm under pressure, listens carefully, and finds solutions quickly. I really admire her dedication and creativity , she’s someone you can trust to get the job done well.",
+    name: "Chinonso Okeke",
+    role: "Product Manager",
+    initial: "C",
   },
   {
     id: 2,
-    text: "Working with phina was a wonderful experience. She always delivers quality projects on time and communicates clearly throughout the process.",
-    name: "Jane Doe",
-    role: "Product Manager",
-    initial: "J",
+    text: "Esther brings so much energy and positivity to every project. She has a natural eye for detail and makes even complex ideas feel simple. I’ve learned a lot from collaborating with her and would recommend her to any team.",
+    name: "Temidayo Adebayo",
+    role: "Tech Lead",
+    initial: "T",
   },
   {
     id: 3,
-    text: "Her creativity and problem-solving skills are outstanding. I’d highly recommend her to any team or project.",
-    name: "John Smith",
-    role: "Tech Lead",
-    initial: "J",
+    text: "I’ve worked with a lot of developers, but Esther really stands out. She’s reliable, communicates clearly, and always goes the extra mile. It’s a pleasure working with her and seeing her bring ideas to life.",
+    name: "Funke Olawale",
+    role: "CEO, Tech Solutions",
+    initial: "F",
   },
 ];
+
+
 
 const Review = () => {
   const [current, setCurrent] = useState(0);
