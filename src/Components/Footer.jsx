@@ -3,11 +3,11 @@ import { FaGithub, FaLinkedin, FaEnvelope } from 'react-icons/fa';
 
 const Footer = () => {
   return (
-    <footer className="footer" data-aos="fade-up">
-      <p data-aos="fade-up">
+    <footer className="footer">
+      <p >
         © 2024 Tolulope Esther Akinwale. <br /> All rights reserved.
       </p>
-      <div className="footer-links" data-aos="fade-up" >
+      <div className="footer-links">
         <a href="https://github.com/TEAtech-TBKs" target="_blank" rel="noopener noreferrer">
           <FaGithub className="icon" />
         </a>

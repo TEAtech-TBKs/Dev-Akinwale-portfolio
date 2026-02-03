@@ -32,7 +32,7 @@ useEffect(() => {
             <span className="typewriter"> Esther Akinwale</span>
           </div>
           <p className="hero-subtitle"> I am a <span className="proficiency">' {titles[index]} '</span></p>
-          <p className='hero-description'>As a passionate Frontend Web Developer and MERN Stack Developer, I am eager to bring my strong technical expertise and user-focused approach to your team. My commitment to creating seamless, engaging user experiences aligns perfectly with your company’s vision. I am excited about the opportunity to contribute to innovative projects and collaborate with talented professionals who share my enthusiasm for technology and impactful solutions.</p>
+          <p className='hero-description'>I’m a Frontend-focused Web Developer with strong MERN stack knowledge. I love building smooth, user-friendly web experiences, turning ideas into clean, functional interfaces, and writing code that’s easy to maintain. Exploring modern web technologies and creating solutions that add real value keeps me motivated.</p>
           <div className="btnCta">
             <button className="hero-button">Explore My Work</button>
             <button className="hero-btn-contact">Contact Me</button>

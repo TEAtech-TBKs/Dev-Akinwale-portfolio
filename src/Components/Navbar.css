@@ -3,7 +3,7 @@
   box-sizing: border-box;
 }
 nav{
-  background: black;
+  background: linear-gradient(to bottom, #001325, #00264a);
 }
 
 .navbar {
@@ -140,7 +140,7 @@ nav{
   .logo-container{
     display: flex;
     padding: 1rem 0 0 0;
-    background-color: black;
+    /* background-color: black; */
     /* border: 1px solid  red; */
   }
 .logo-img{

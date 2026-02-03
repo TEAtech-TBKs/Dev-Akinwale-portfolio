@@ -63,7 +63,7 @@
   margin-bottom: 1.5rem;
   font-weight: 200;
   color: #e0fbff;
-  line-spacing: 150%;
+  line-height: 1.5;
 }
 
 .hero-button {
@@ -206,6 +206,9 @@
   }
   .hero-title {
     font-size: 1.7rem;
+  }
+  .hero-description{
+    font-weight: 400;
   }
   .hero-subtitle {
     /* font-size: 5rem;
