@@ -89,6 +89,15 @@ nav{
 .name{
   color: #adfaff;
 }
+.cv-button-nav, .cv-button-nav-desktop{
+   padding: 0.5rem 1rem;
+  font-size: 1rem;
+  border-radius: 0.5rem;
+  background-color:  #731cffee;
+  color: white;
+  cursor: pointer;
+  text-decoration: none;
+}
 
 /* Hamburger Menu */
 .hamburger {
@@ -122,6 +131,9 @@ nav{
   }
   
   .nav-links.desktop {
+    display: none;
+  }
+  .cv-button-nav{
     display: none;
   }
 }

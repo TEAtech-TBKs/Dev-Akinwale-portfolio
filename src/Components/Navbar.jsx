@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import { AnimatePresence, motion } from 'framer-motion';
 import logo from '../assets/TS.svg';
+import cv from '../assets/Esther Akinwale cv update(2).pdf'
 import './Navbar.css';
 
 const navVariants = {
@@ -54,6 +55,7 @@ const Navbar = () => {
             <li><a href="#about-section" onClick={closeMenu}>About</a></li>
             <li><a href="#projects-section" onClick={closeMenu}>Projects</a></li>
             <li><a href="#contact-section" onClick={closeMenu}>Contact</a></li>
+            <a className='cv-button-nav-desktop' href={cv} title='Get To Know Dev Akin' rel='noopener' target='_blank'>View Cv</a>
           </motion.ul>
         )}
         
@@ -71,6 +73,8 @@ const Navbar = () => {
         <li><a href="#projects-section">Projects</a></li>
         <li><a href="#contact-section">Contact</a></li>
       </ul>
+      <a className='cv-button-nav' href={cv} title='Get To Know Dev Akin' rel='noopener' target='_blank'>View Cv</a>
+      
     </nav>
   );
 };

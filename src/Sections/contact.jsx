@@ -1,6 +1,6 @@
 import React, { useState, useRef } from 'react';
 import emailjs from 'emailjs-com';
-import cv from '../assets/ESTHER_AKINWALE_CV.pdf';
+import cv from '../assets/Esther Akinwale cv update(2).pdf';
 import './contact.css';
 import { FaEnvelope, FaWhatsapp } from 'react-icons/fa';
 
@@ -66,8 +66,6 @@ const Contact = () => {
               value={formData.email}
               onChange={handleChange}
               required
-              data-aos="fade-left"
-              data-aos-delay="100"
             />
             <label htmlFor="message" data-aos="fade-right" data-aos-delay="200">Message</label>
             <textarea
@@ -76,8 +74,6 @@ const Contact = () => {
               value={formData.message}
               onChange={handleChange}
               required
-              data-aos="fade-left"
-              data-aos-delay="200"
             />
             <button type="submit" data-aos="zoom-in" data-aos-delay="300">Send Message</button>
           </form>
