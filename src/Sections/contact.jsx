@@ -75,7 +75,7 @@ const Contact = () => {
               onChange={handleChange}
               required
             />
-            <button type="submit" data-aos="zoom-in" data-aos-delay="300">Send Message</button>
+            <button type="submit">Send Message</button>
           </form>
         </div>
       </section>
